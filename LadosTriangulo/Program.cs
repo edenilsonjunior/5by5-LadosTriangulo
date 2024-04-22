@@ -1,24 +1,24 @@
 ﻿// 3- Faça um programa que leia os 3 lados de um triangulo e informe o tipo dele
 
-int lado1 = 0, lado2 = 0, lado3 = 0;
+float lado1 = 0, lado2 = 0, lado3 = 0;
 
 Console.WriteLine("=====Tipos de Triangulo=====");
 
 do{
     Console.Write("Digite o primeiro lado: ");
-    lado1 = int.Parse(Console.ReadLine());
+    lado1 = float.Parse(Console.ReadLine());
 
 } while (lado1 <= 0);
 
 do{
     Console.Write("Digite o segundo lado: ");
-    lado2 = int.Parse(Console.ReadLine());
+    lado2 = float.Parse(Console.ReadLine());
 
 } while (lado2 <= 0);
 
 do{
     Console.Write("Digite o terceiro lado: ");
-    lado3 = int.Parse(Console.ReadLine());
+    lado3 = float.Parse(Console.ReadLine());
 
 } while (lado3 <= 0);
 
